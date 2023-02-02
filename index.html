@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <!--esto es la referencia para poder usar los iconos, se encuentra directamente en USAGE en la pag web de boxicons-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,900;1,100;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <!--esto lo sacamos de google fonts, donde haciendo embed copiamos este link de referencia del caracter Open Sans, con medida: 300,400,700-->
+</head>
+
+<body>
+  <header class="header" id="inicio">
+    <img class="hamburger" src="img/menu.svg" alt="">
+    <!--estas img las sacamos de boxicons-->
+    <nav class="menu-navegacion">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicio">Servicio</a>
+      <a href="#galeria">Portafolio</a>
+      <a href="#expertos">Expertos</a>
+      <a href="#footer">Contacto</a>
+    </nav>
+    <div class="contenedor head">
+      <h1 class="titulo">Convertimos tus sueños en realidad</h1>
+      <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="contenedor" id="servicio">
+
+      <h2 class="subtitulo">Nuestro servicio</h2>
+      <div class="contenedor-servicio">
+        <img src="img/checklist.svg" alt="">
+        <div class="checklist-servicio">
+          <div class="service">
+            <h3 class="n-service"><span class="number">1</span>Diseño web</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore inventore quam corporis ducimus ab sunt
+              a praesentium earum commodi deserunt?</p>
+          </div>
+          <div class="service">
+            <h3 class="n-service"><span class="number">2</span>Diseño web</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore inventore quam corporis ducimus ab sunt
+              a praesentium earum commodi deserunt?</p>
+          </div>
+          <div class="service">
+            <h3 class="n-service"><span class="number">3</span>Diseño web</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore inventore quam corporis ducimus ab sunt
+              a
+              praesentium earum commodi deserunt?</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="gallery" id="galeria">
+      <div class="contenedor">
+        <h2 class="subtitulo">Galeria</h2>
+        <div class="contenedor-galeria">
+          <img src="img/1.jpg" alt="" class="img-galeria">
+          <img src="img/2.jpg" alt="" class="img-galeria">
+          <img src="img/3.jpg" alt="" class="img-galeria">
+          <img src="img/4.jpg" alt="" class="img-galeria">
+          <img src="img/5.jpg" alt="" class="img-galeria">
+          <img src="img/6.jpg" alt="" class="img-galeria">
+        </div>
+      </div>
+    </section>
+
+    <!--esta la seccion lightbox-->
+    <div class="imagen-light">
+      <img src="img/closeLight.svg" alt="" class="close">
+      <img src="" alt="" class="agregar-imagen">
+    </div>
+
+
+
+    <section class="contenedor" id="expertos">
+      <h2 class="subtitulo">Expertos en:</h2>
+      <section class="experts">
+        <div class="cont-expert">
+          <img src="img/Piechart.svg" alt="">
+          <h3 class="n-expert">Analytics</h3>
+        </div>
+        <div class="cont-expert">
+          <img src="img/SearchEngine.svg" alt="">
+          <h3 class="n-expert">SEO</h3>
+        </div>
+        <div class="cont-expert">
+          <img src="img/Security.svg" alt="">
+          <h3 class="n-expert">Security</h3>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <!--footer-->
+  <footer id="footer">
+    <div class="contenedor footer-content">
+      <div class="contact-us">
+        <h2 class="brand">JA Design</h2>
+        <p>Somo expertos en la creación de tus sueños</p>
+      </div>
+      <div class="social-media">
+        <a href="https://www.facebook.com/" class="social-media-icon" target="_blank">
+          <i
+            class='bx bxl-facebook'></i><!--esto estan tambien copiados desde boxicons, como fuentes, para twitter y instagram igual.-->
+        </a>
+        <a href="https://twitter.com/" class="social-media-icon" target="_blank">
+          <i class='bx bxl-twitter'></i>
+        </a>
+        <a href="https://www.instagram.com/" class="social-media-icon" target="_blank">
+          <i class='bx bxl-instagram'></i>
+        </a>
+      </div>
+    </div>
+    <div class="line"></div>
+  </footer>
+
+  <script src="js/menu.js"></script>
+  <script src="js/lightbox.js"></script>
+
+
+
+</body>
+
+</html>
